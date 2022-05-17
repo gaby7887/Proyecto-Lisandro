@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas: 
+    "navbar"
+    "acercaDeMi"
+    "servicios"
+    "contacto"
+    "footer";
+}
+
+@media (min-width: 900px){
+    .grid-container{
+        grid-template: 
+            "navbar navbar navbar" 22.5%
+            "acercaDeMi acercaDeMi acercaDeMi" 22.5%
+            "servicios servicios servicios" 22.5%
+            "contacto contacto contacto" 22.5%
+            "footer footer footer" 10%
+            33.3% 33.3% 33.3%;
+        }
+}
+body{
+    background-color: #E5E5E5;
+    font-family: 'Open Sans';
+}

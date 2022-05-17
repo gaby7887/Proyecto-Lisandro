@@ -1,0 +1,21 @@
+.footer{
+    width: 100%;
+    grid-area: footer;
+    margin-top: 120px;
+}
+.logoFooter{
+    width: 186px;
+    height: 85px;
+}
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textoFooter{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Open Sans';
+}

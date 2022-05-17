@@ -10,7 +10,6 @@
     }
 
 .inicio {
-    position: absolute;
     width: 78px;
     height: 25px;
     left: 738px;
@@ -20,7 +19,6 @@
 }
 
 .acercaDeMi {
-    position: absolute;
     width: 141px;
     height: 30px;
     left: 878px;
@@ -30,7 +28,6 @@
 }
 
 .servicios {
-    position: absolute;
     width: 97px;
     height: 30px;
     left: 1090px;
@@ -40,7 +37,6 @@
 }
 
 .contacto {
-    position: absolute;
     width: 100px;
     height: 30px;
     left: 1238px;
@@ -50,7 +46,6 @@
 }
 
 .logoLisandro {
-    position: absolute;
     width: 186px;
     height: 85px;
     left: 81px;
