@@ -17,10 +17,8 @@ const Inicio = () => {
             <h1>Lisandro Cacciatore</h1>
         </div>
 
-       
         <div className="linea"></div>
-        
-        
+       
         <h2>Escuela de fuerza</h2>
         
         <div className="inicioPresentacion">
@@ -29,19 +27,11 @@ const Inicio = () => {
                 del entrenamiento.
                 Tengo que confesarte que nunca fui un gran
                 deportista o uno que se destacara por su habilidad.
+                
                 <button className="leerMas">Leer más...</button>
             </p>
             
             <button className="comienzaTuEntrenamiento"><span className="textoBoton">Comienza tu entrenamiento</span></button>
-        </div>
-
-        
-
-        
-
-        
-        <div>
-            <p></p>
         </div>
         </>
     )
