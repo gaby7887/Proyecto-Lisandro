@@ -6,19 +6,18 @@ import logo from '../../Imagenes/logo.png'
 
 const Navbar = () => {
     return(
-        <>
-        <img className='logoLisandro' src={logo} alt='logo' />
+        <div className="navbar">
+            <Link to="/"><img className='logoLisandro' src={logo} alt='logo' /></Link>
 
-        <div className="link">
-            <ul className="link">
-                <li><Link to="/"><img className='logoLisandro' src={logo} alt='logo' /></Link></li>
-                <li><Link to='/' className="inicio">Inicio</Link></li>
-                <li><Link to='AcercaDeMi' className="acercaDeMi">Acerca de mi</Link></li>
-                <li><Link to='Servicios' className="servicios">Servicios</Link></li>
-                <li><Link to='Contacto' className="contacto">Contacto</Link></li>
-            </ul>
+            <div className="link">
+                <ul className="link">
+                    <li><Link to='/' className="inicioNavbar">Inicio</Link></li>
+                    <li><Link to='AcercaDeMi' className="acercaDeMiNavbar">Acerca de mi</Link></li>
+                    <li><Link to='Servicios' className="serviciosNavbar">Servicios</Link></li>
+                    <li><Link to='Contacto' className="contactoNavbar">Contacto</Link></li>
+                </ul>
+            </div>
         </div>
-        </>
     )
 }
 

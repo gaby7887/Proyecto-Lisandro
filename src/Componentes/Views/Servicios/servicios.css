@@ -1,0 +1,5 @@
+.servicios{
+    width: 100%;
+    grid-area: contacto;
+    background-color: green;
+}

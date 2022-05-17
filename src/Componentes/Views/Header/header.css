@@ -5,7 +5,7 @@
     padding: 14px 20px;
     gap: 10px;
     
-    position: absolute;
+    /* position: absolute; */
     width: 284px;
     height: 50px;
     left: 938px;
@@ -62,7 +62,6 @@ h1 {
     padding: 20px;
     gap: 10px;
 
-    position: absolute;
     width: 420px;
     height: 214px;
     left: 465px;
@@ -92,11 +91,8 @@ h4 {
     }
 
 h2 {
-    position: absolute;
     width: 300px;
     height: 88px;
-    left: 938px;
-    top: 275px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -108,11 +104,8 @@ h2 {
 }
 
 p {
-    position: absolute;
     width: 400px;
     height: 109px;
-    left: 938px;
-    top: 368px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -120,7 +113,6 @@ p {
     font-size: 16px;
     line-height: 22px;
 
-    /* gris */
 
     color: rgba(26, 26, 37, 0.6);
 }
@@ -145,7 +137,7 @@ p {
 }
 
 .fotoLisandro {
-    position: absolute;
+    /* position: absolute; */
     width: 577px;
     height: 640px;
     left: 54px;
@@ -155,7 +147,7 @@ p {
 }
 
 .logoLisandro {
-    position: absolute;
+    /* position: absolute; */
     width: 186px;
     height: 105px;
     left: 81px;
@@ -165,7 +157,7 @@ p {
 }
 
 .linea {
-    position: absolute;
+    /* position: absolute; */
     width: 152px;
     height: 8px;
     left: 599px;
