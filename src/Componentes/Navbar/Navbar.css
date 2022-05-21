@@ -1,24 +1,47 @@
+.navBar {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center
+}
+
 .link {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
     color: #1A1A25;
-
     list-style-type: none;
     }
 
-.inicio {
-    width: 78px;
-    height: 25px;
-    left: 738px;
-    top: 48px;
-    text-decoration: none;
-    color: #1A1A25
+.logoLisandro {
+    width: 186px;
+    height: 85px;
+    background: url('../../Imagenes/logo.png');
 }
 
-.acercaDeMi {
+.listadoNavbar {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inicioNavbar {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26,63px;
+    padding-left: 738px;
+    top: 48px;
+    width: 78px;
+    height: 25px;
+    text-decoration: none;
+    color: #1A1A25 
+}
+
+.acercaDeMiNavbar {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29.96px;
     width: 141px;
     height: 30px;
     left: 878px;
@@ -27,29 +50,25 @@
     color: #1A1A25
 }
 
-.servicios {
+.serviciosNavbar {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29.96px;
     width: 97px;
     height: 30px;
-    left: 1090px;
     top: 48px;
     text-decoration: none;
     color: #1A1A25
 }
 
-.contacto {
+.contactoNavbar {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29.96px;
     width: 100px;
     height: 30px;
     left: 1238px;
     top: 48px;
     text-decoration: none;
     color: #1A1A25
-}
-
-.logoLisandro {
-    width: 186px;
-    height: 85px;
-    left: 81px;
-    top: 32px;
-
-    background: url('../../Imagenes/logo.png');
 }

@@ -1,111 +1,89 @@
-.comienzaTuEntrenamiento {
+.home {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.divFotoLisandro {
+    display: flex;
+}
+
+.fotoLisandro {
+    width: 577px;
+    height: 640px;
+    left: 54px;
+    top: 186px;
+    border-radius: 40px;
+    background: url(../../../Imagenes/fotoLisandro.png);
+}
+
+.cajaTitleHome {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 14px 20px;
+    justify-content: center;
+    
+    align-items: center;
+    padding: 20px;
     gap: 10px;
-    
-    /* position: absolute; */
-    width: 284px;
-    height: 50px;
-    left: 938px;
-    top: 516px;
-    
-    background: #436CFF;
-    box-shadow: 0px 4px 20px #436CFF;
-    border-radius: 10px;  
-    border: none;
 
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
+    position: absolute;
+    width: 420px;
+    height: 214px;
+    left: 465px;
+    top: 225px;
 
-
-    text-align: justify;
-
-    color: #FFFFFF;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 99.99%, #E5E5E5 100%);
+    border-radius: 20px;
 }
 
-.textoBoton {
-    width: 226px;
-    height: 22px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF
-}
-h1 {
+.titleHome {
     width: 400px;
     height: 186px;
 
     font-family: 'Open Sans';
     font-style: normal;
+    
     font-weight: 700;
     font-size: 68px;
     line-height: 93px;
     text-indent: 4px;
 
     color: #1A1A25;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    gap: 10px;
 
-    width: 420px;
-    height: 214px;
-    left: 465px;
-    top: 105px;
+    /* Inside auto layout */
 
-    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 99.99%, #E5E5E5 100%);
-    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-h4 {
-    position: absolute;
-    width: 67px;
-    height: 1px;
-    left: 949px;
-    top: 226px;
+.contenedorEscuelaDeFuerza {
+    display: flex;
+    flex-direction: column;
+}
 
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    /* identical to box height */
-
-    text-transform: uppercase;
-
-    color: #1A1A25;
-    }
-
-h2 {
-    width: 300px;
-    height: 88px;
-
-    font-family: 'Inter';
-    font-style: normal;
+.subTituloHome {
     font-weight: 700;
     font-size: 36px;
-    line-height: 44px;
+    line-height: 43.57px;
 
+    width: 300px;
+    height: 88px;
+    left: 938px;
+    top: 360px;
     color: #1A1A25;
 }
 
-p {
+.inicioPresentacion {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoPresentacion {
     width: 400px;
     height: 109px;
+    left: 938px;
+    top: 448px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -113,65 +91,55 @@ p {
     font-size: 16px;
     line-height: 22px;
 
+    /* gris */
 
     color: rgba(26, 26, 37, 0.6);
 }
 
 .leerMas {
-    width: 95px;
-    height: 27px;
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    text-align:left;
-    border: none;
+    text-align: justify;
 
     color: #436CFF;
+
+
+    /* Inside auto layout */
 
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.fotoLisandro {
-    /* position: absolute; */
-    width: 577px;
-    height: 640px;
-    left: 54px;
-    top: 116px;
-    border-radius: 40px;
+.comienzaTuEntrenamiento {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 14px 20px;
+gap: 10px;
 
+
+width: 284px;
+height: 50px;
+left: 938px;
+top: 606px;
+
+background: #436CFF;
+box-shadow: 0px 4px 20px #436CFF;
+border-radius: 10px;
 }
 
-.logoLisandro {
-    /* position: absolute; */
-    width: 186px;
-    height: 105px;
-    left: 81px;
-    top: 12px;
+.textoBoton {
+    font-size: 16px;
+line-height: 22px;
+/* identical to box height */
 
-    
+text-align: justify;
+
+color: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
-
-.linea {
-    /* position: absolute; */
-    width: 152px;
-    height: 8px;
-    left: 599px;
-    top: 400px;
-
-    background: #436CFF;
-    border-radius: 50px;
-}
-
-/*.entornoLogo {
-    position: absolute;
-    width: 427px;
-    height: 419px;
-    left: -147px;
-    top: -117px;
-    background: rgba(67, 108, 255, 0.1);
-}*/
