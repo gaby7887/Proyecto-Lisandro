@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content:space-between;
     text-align: center; 
-    padding-left: 180px;
+    /* padding-left: 180px; */
     
 }
 
@@ -14,8 +14,8 @@
     text-align: center;
     width: 188px;
     height: 49px;
-    padding-left: 626px;
-    top: 2041px;
+    /* padding-left: 626px; */
+    /* top: 2041px; */
     
     font-weight: 800;
     font-size: 36px;
@@ -40,6 +40,9 @@ color: rgba(26, 26, 37, 0.6);
 
 .cajaContenedora {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
     flex-wrap: wrap;
 }
 
@@ -50,8 +53,8 @@ color: rgba(26, 26, 37, 0.6);
     
     width: 370px;
     height: 773px;
-    left: 235px;
-    top: 2175px;
+    /* left: 235px;
+    top: 2175px; */
 
     background: #FFFFFF;
     box-shadow: 0px 4px 8px #436CFF;
@@ -68,7 +71,7 @@ color: rgba(26, 26, 37, 0.6);
     width: 228px;
     height: 50px;
     padding-left: calc(50% - 228px/2 - 306px);
-    top: 2213px;
+    /* top: 2213px; */
     font-size: 32px;
     line-height: 44px;
 
@@ -85,8 +88,8 @@ color: rgba(26, 26, 37, 0.6);
    
     width: 370px;
     height: 773px;
-    left: 835px;
-    top: 2183px;
+    /* left: 835px;
+    top: 2183px; */
 
     background: #FFFFFF;
     box-shadow: 0px 4px 8px #436CFF;
@@ -105,7 +108,7 @@ color: rgba(26, 26, 37, 0.6);
     width: 228px;
     height: 50px;
     left: calc(50% - 228px/2 + 304px);
-    top: 2221px;
+    /* top: 2221px; */
 
     background: linear-gradient(90deg, #E0C3FC 0%, #8EC5FC 100%);
     opacity: 0.9;
@@ -121,7 +124,7 @@ color: rgba(26, 26, 37, 0.6);
     width: 228px;
     height: 50px;
     left: calc(50% - 108px/2 + 304px);
-    top: 2224px;
+    /* top: 2224px; */
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -135,8 +138,8 @@ color: rgba(26, 26, 37, 0.6);
 .parrafoMentorias {
     width: 302px;
     height: 342px;
-    left: 274px;
-    top: 2296px;
+    /* left: 274px;
+    top: 2296px; */
 
     font-weight: 400;
     font-size: 18px;
@@ -176,8 +179,8 @@ color: rgba(26, 26, 37, 0.6);
 .womanSevicios {
     width: 305px;
     height: 256px;
-    left: 871px;
-    top: 2548px;
+    /* left: 871px;
+    top: 2548px; */
 }
 
 

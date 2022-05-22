@@ -11,8 +11,8 @@
 .fotoLisandro {
     width: 577px;
     height: 640px;
-    left: 54px;
-    top: 186px;
+    /* left: 54px;
+    top: 186px; */
     border-radius: 40px;
     background: url(../../../Imagenes/fotoLisandro.png);
 }
@@ -29,8 +29,9 @@
     position: absolute;
     width: 420px;
     height: 214px;
-    left: 465px;
-    top: 225px;
+    left: 565px;
+    top: 125px;
+    padding: 0;
 
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 99.99%, #E5E5E5 100%);
     border-radius: 20px;
@@ -45,7 +46,7 @@
     
     font-weight: 700;
     font-size: 68px;
-    line-height: 93px;
+    line-height: 82.6px;
     text-indent: 4px;
 
     color: #1A1A25;
@@ -60,17 +61,20 @@
 .contenedorEscuelaDeFuerza {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .subTituloHome {
     font-weight: 700;
     font-size: 36px;
     line-height: 43.57px;
+    margin: 0;
 
     width: 300px;
     height: 88px;
-    left: 938px;
-    top: 360px;
+    /* left: 938px;
+    top: 360px; */
     color: #1A1A25;
 }
 
@@ -82,14 +86,15 @@
 .textoPresentacion {
     width: 400px;
     height: 109px;
-    left: 938px;
-    top: 448px;
+    /* left: 938px;
+    top: 448px; */
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    margin-top: 0;
 
     /* gris */
 
@@ -102,7 +107,10 @@
     text-align: justify;
 
     color: #436CFF;
-
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 700;
 
     /* Inside auto layout */
 
@@ -113,33 +121,34 @@
 
 .comienzaTuEntrenamiento {
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 14px 20px;
-gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    margin-top: 10px;
 
+    width: 284px;
+    height: 50px;
+    /* left: 938px;
+    top: 606px; */
 
-width: 284px;
-height: 50px;
-left: 938px;
-top: 606px;
-
-background: #436CFF;
-box-shadow: 0px 4px 20px #436CFF;
-border-radius: 10px;
+    background: #436CFF;
+    box-shadow: 0px 4px 20px #436CFF;
+    border-radius: 10px;
+    border: none;
 }
 
 .textoBoton {
     font-size: 16px;
-line-height: 22px;
-/* identical to box height */
+    line-height: 22px;
+    /* identical to box height */
 
-text-align: justify;
+    text-align: justify;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }

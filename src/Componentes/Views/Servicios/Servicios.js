@@ -48,7 +48,8 @@ const Servicios = () => {
                         <img className="womanServicios" src={womanServicios} alt="logo"/>
                         <div>
                             <span className="textoSaberMas">Deseo saber más</span>
-                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class='bx bxl-whatsapp'></i>
+                            
                         </div>
                         
                     </div>        
