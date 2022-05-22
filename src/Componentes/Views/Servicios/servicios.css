@@ -50,7 +50,7 @@ color: rgba(26, 26, 37, 0.6);
     text-align: center;
     
     width: 370px;
-    height: 773px;
+    height: 793px;
 
     background: #FFFFFF;
     box-shadow: 0px 4px 8px #436CFF;
@@ -167,7 +167,7 @@ color: rgba(26, 26, 37, 0.6);
 
 .cajaSaberMasMentorias {
     display: flex;
-    margin-top: -25px;
+    margin-top: -45px;
     margin-left: 85px;
 }
 

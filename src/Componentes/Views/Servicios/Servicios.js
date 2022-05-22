@@ -14,8 +14,7 @@ const Servicios = () => {
                 <div className="contenedorMentorias">
                     <div>
                         <h2 className='subtituloMentorias'>Mentorias</h2>
-                    </div>
-                    
+                    </div>  
                     <div className="parrafoMentorias">
                         <p> 
                             Mientras nos tomamos unos mates o un café. Puede ser virtual o presencial.
@@ -26,7 +25,6 @@ const Servicios = () => {
                             Podemos coordinar mentorías 1 a 1 o en grupos de hasta 5 participantes.
                             Usualmente lo que usamos para clubes o instituciones deportivas.
                         </p>
-
                         <div className="fotoMan">
                             <img className="manServicios" src={manServicios} alt="logo"/>
                         </div>
@@ -35,10 +33,8 @@ const Servicios = () => {
                         </div>  
                         <div className="whatsappMan">
                             <img className="whatsapp" src={whatsapp} alt="logo"/>
-                        </div>
-                             
+                        </div>          
                     </div>
-
                 </div>
                 <div className="contenedorCursos">
                     <div className="contenedorSubtituloCursos">
