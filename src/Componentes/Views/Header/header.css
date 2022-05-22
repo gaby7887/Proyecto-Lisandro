@@ -11,6 +11,11 @@
 .fotoLisandro {
     width: 577px;
     height: 640px;
+<<<<<<< HEAD
+=======
+    /* left: 54px;
+    top: 186px; */
+>>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
     border-radius: 40px;
 }
 
@@ -29,6 +34,10 @@
     left: 565px;
     top: 125px;
     padding: 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 99.99%, #E5E5E5 100%);
     border-radius: 20px;
 }
@@ -69,7 +78,12 @@
 
     width: 300px;
     height: 88px;
+<<<<<<< HEAD
    
+=======
+    /* left: 938px;
+    top: 360px; */
+>>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
     color: #1A1A25;
 }
 
@@ -81,13 +95,22 @@
 .textoPresentacion {
     width: 400px;
     height: 109px;
+<<<<<<< HEAD
+=======
+    /* left: 938px;
+    top: 448px; */
+>>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+<<<<<<< HEAD
     margin: 0;
+=======
+    margin-top: 0;
+>>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
 
     /* gris */
 
@@ -100,11 +123,18 @@
     text-align: justify;
 
     color: #436CFF;
+<<<<<<< HEAD
 
     border: none;
     background: none;
     font-weight: 700;
     text-align: justify;
+=======
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 700;
+>>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
 
     /* Inside auto layout */
 
@@ -119,11 +149,21 @@
     justify-content: center;
     align-items: center;
     padding: 14px 20px;
+<<<<<<< HEAD
     margin: 10px;
     
     width: 284px;
     height: 50px;
     
+=======
+    margin-top: 10px;
+
+    width: 284px;
+    height: 50px;
+    /* left: 938px;
+    top: 606px; */
+
+>>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
     background: #436CFF;
     box-shadow: 0px 4px 20px #436CFF;
     border-radius: 10px;
