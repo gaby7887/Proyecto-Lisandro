@@ -4,18 +4,16 @@
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    text-align: center; 
-    padding-left: 180px;
-    
+    text-align: center;  
 }
 
 .tituloServicios {
     display: flex;
     text-align: center;
-    width: 188px;
-    height: 49px;
-    padding-left: 626px;
-    top: 2041px;
+    /*width: 188px;
+    height: 49px;*/
+    padding-left: 650px;
+    margin-top: 0px;
     
     font-weight: 800;
     font-size: 36px;
@@ -31,6 +29,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    margin-top: 0px;
 
 /* gris */
 
@@ -40,6 +39,8 @@ color: rgba(26, 26, 37, 0.6);
 
 .cajaContenedora {
     display: flex;
+    flex-wrap: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -50,15 +51,13 @@ color: rgba(26, 26, 37, 0.6);
     
     width: 370px;
     height: 773px;
-    left: 235px;
-    top: 2175px;
 
     background: #FFFFFF;
     box-shadow: 0px 4px 8px #436CFF;
     border-radius: 48px;
 
     padding-left: 70px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .subtituloMentorias {
@@ -67,8 +66,7 @@ color: rgba(26, 26, 37, 0.6);
     justify-content: center;
     width: 228px;
     height: 50px;
-    padding-left: calc(50% - 228px/2 - 306px);
-    top: 2213px;
+    
     font-size: 32px;
     line-height: 44px;
 
@@ -85,15 +83,14 @@ color: rgba(26, 26, 37, 0.6);
    
     width: 370px;
     height: 773px;
-    left: 835px;
-    top: 2183px;
 
     background: #FFFFFF;
     box-shadow: 0px 4px 8px #436CFF;
     border-radius: 48px;
 
-    padding-left: 20px;
-    padding-top: 50px;
+    padding-left: 70px;
+    margin-left: 200px;
+    padding-top: 40px;
 
 }
 
@@ -105,7 +102,6 @@ color: rgba(26, 26, 37, 0.6);
     width: 228px;
     height: 50px;
     left: calc(50% - 228px/2 + 304px);
-    top: 2221px;
 
     background: linear-gradient(90deg, #E0C3FC 0%, #8EC5FC 100%);
     opacity: 0.9;
@@ -120,8 +116,7 @@ color: rgba(26, 26, 37, 0.6);
     
     width: 228px;
     height: 50px;
-    left: calc(50% - 108px/2 + 304px);
-    top: 2224px;
+    
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -135,8 +130,6 @@ color: rgba(26, 26, 37, 0.6);
 .parrafoMentorias {
     width: 302px;
     height: 342px;
-    left: 274px;
-    top: 2296px;
 
     font-weight: 400;
     font-size: 18px;
@@ -152,18 +145,32 @@ color: rgba(26, 26, 37, 0.6);
 .parrafoCursos {
     width: 302px;
     height: 342px;
-    left: 869px;
-    top: 2304px;
 
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+    margin-left: -25px;
+    margin-top: 45px;
 
     /* gris */
 
     color: rgba(26, 26, 37, 0.6);
+    
 }
+
+.cajaSaberMas {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+.cajaSaberMasMentorias {
+    display: flex;
+    margin-top: -25px;
+    margin-left: 85px;
+}
+
 
 .textoSaberMas {
     width: 152px;
@@ -173,11 +180,38 @@ color: rgba(26, 26, 37, 0.6);
     color: #000000;
 }
 
+.fotoMan {
+    display: flex;
+    margin-top: -5px;
+}
+
+.fotoWoman {
+    display: flex;
+    margin-top: -85px;
+}
+
 .womanSevicios {
+    display: flex;
     width: 305px;
     height: 256px;
-    left: 871px;
-    top: 2548px;
+    
+    /*left: 871px;
+    top: 2548px; */
 }
+
+.whatsappWoman {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 115px;
+}
+
+.whatsappMan {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 135px;
+}
+
+
+
 
 

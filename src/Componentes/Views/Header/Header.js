@@ -18,21 +18,22 @@ const Inicio = () => {
 
             <div className="contenedorEscuelaDeFuerza">
                 <div className="cajaSubtituloHome">
+                    <p>-Sobre mi</p>
                     <h2 className="subtituloHome">Escuela de fuerza</h2>
+                    <div className="linea"></div>
                 </div>
          
                 <div className="inicioPresentacion">
-                    <p className="textoPresentacion">Hola, mi nombre es Lisandro Cacciatore. Soy Licenciado
-                       en Educación Física y un apasionado por el estudio 
-                       del entrenamiento.
-                       Tengo que confesarte que nunca fui un gran
-                       deportista o uno que se destacara por su habilidad.   
-                    </p>
-                    <div className="cajaBoton">
+                    <div>
+                        <p className="textoPresentacion">Hola, mi nombre es Lisandro Cacciatore. Soy Licenciado
+                        en Educación Física y un apasionado por el estudio 
+                        del entrenamiento.
+                        Tengo que confesarte que nunca fui un gran
+                        deportista o uno que se destacara por su habilidad.   
+                        </p>
                         <button className="leerMas">Leer más...</button>
+                        <button className="comienzaTuEntrenamiento"><span className="textoBoton">Comienza tu entrenamiento</span></button>
                     </div>
-            
-                    <button className="comienzaTuEntrenamiento"><span className="textoBoton">Comienza tu entrenamiento</span></button>
                 </div>
             </div>
         </div>

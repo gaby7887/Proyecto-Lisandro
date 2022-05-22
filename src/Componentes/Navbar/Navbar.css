@@ -1,4 +1,4 @@
-.navBar {
+.navbar {
     display: flex;
     flex-direction:row;
     justify-content:space-between;
@@ -16,7 +16,6 @@
 .logoLisandro {
     width: 186px;
     height: 85px;
-    background: url('../../Imagenes/logo.png');
 }
 
 .listadoNavbar {
@@ -44,7 +43,7 @@
     line-height: 29.96px;
     width: 141px;
     height: 30px;
-    left: 878px;
+    left: 878px; 
     top: 48px;
     text-decoration: none;
     color: #1A1A25
@@ -61,6 +60,7 @@
     color: #1A1A25
 }
 
+
 .contactoNavbar {
     font-weight: 700;
     font-size: 22px;
@@ -68,7 +68,7 @@
     width: 100px;
     height: 30px;
     left: 1238px;
-    top: 48px;
+    top: 48px;  
     text-decoration: none;
     color: #1A1A25
 }
