@@ -47,7 +47,6 @@ const Servicios = () => {
                             a lo más avanzado, para que puedas realizarlo a tu ritmo y puedas incorporar
                             tu propio SkillTree para que te especialices en lo que necesites.
                         </p>
-<<<<<<< HEAD
                         <div className="fotoWoman">
                             <img className="womanServicios" src={womanServicios} alt="logo"/>
                         </div>
@@ -56,14 +55,6 @@ const Servicios = () => {
                         </div>
                         <div className="whatsappWoman">
                             <img className="whatsapp" src={whatsapp} alt="logo"/>
-=======
-        
-                        <img className="womanServicios" src={womanServicios} alt="logo"/>
-                        <div>
-                            <span className="textoSaberMas">Deseo saber más</span>
-                            <i class='bx bxl-whatsapp'></i>
-                            
->>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
                         </div>
                     </div>        
                 </div>

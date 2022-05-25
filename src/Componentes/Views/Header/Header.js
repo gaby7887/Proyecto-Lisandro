@@ -19,11 +19,7 @@ const Inicio = () => {
             <div className="contenedorEscuelaDeFuerza">
                 <div className="cajaSubtituloHome">
                     <p>-Sobre mi</p>
-<<<<<<< HEAD
                     <h2 className="subtituloHome">Escuela de fuerza</h2>
-=======
-                    <h2 className="subTituloHome">Escuela de fuerza</h2>
->>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
                     <div className="linea"></div>
                 </div>
          
@@ -37,11 +33,7 @@ const Inicio = () => {
                         </p>
                         <button className="leerMas">Leer más...</button>
                         <button className="comienzaTuEntrenamiento"><span className="textoBoton">Comienza tu entrenamiento</span></button>
-<<<<<<< HEAD
                     </div>
-=======
-                    </div>            
->>>>>>> c3c081fff57a4060474ff2ca49257a3cafa840c2
                 </div>
             </div>
         </div>
