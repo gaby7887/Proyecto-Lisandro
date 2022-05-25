@@ -2,6 +2,7 @@ import React from "react";
 import './servicios.css'
 import manServicios from '../../../Imagenes/manServicios.png';
 import womanServicios from '../../../Imagenes/womanServicios.png';
+import whatsapp from '../../../Imagenes/whatsapp.png';
 
 const Servicios = () => {
     
@@ -13,8 +14,7 @@ const Servicios = () => {
                 <div className="contenedorMentorias">
                     <div>
                         <h2 className='subtituloMentorias'>Mentorias</h2>
-                    </div>
-                    
+                    </div>  
                     <div className="parrafoMentorias">
                         <p> 
                             Mientras nos tomamos unos mates o un café. Puede ser virtual o presencial.
@@ -25,13 +25,16 @@ const Servicios = () => {
                             Podemos coordinar mentorías 1 a 1 o en grupos de hasta 5 participantes.
                             Usualmente lo que usamos para clubes o instituciones deportivas.
                         </p>
-
-                        <img className="manServicios" src={manServicios} alt="logo"/>
-                        <div>
+                        <div className="fotoMan">
+                            <img className="manServicios" src={manServicios} alt="logo"/>
+                        </div>
+                        <div className="cajaSaberMasMentorias">
                             <span className="textoSaberMas">Deseo saber más</span>
-                        </div>       
+                        </div>  
+                        <div className="whatsappMan">
+                            <img className="whatsapp" src={whatsapp} alt="logo"/>
+                        </div>          
                     </div>
-
                 </div>
                 <div className="contenedorCursos">
                     <div className="contenedorSubtituloCursos">
@@ -44,14 +47,15 @@ const Servicios = () => {
                             a lo más avanzado, para que puedas realizarlo a tu ritmo y puedas incorporar
                             tu propio SkillTree para que te especialices en lo que necesites.
                         </p>
-        
-                        <img className="womanServicios" src={womanServicios} alt="logo"/>
-                        <div>
-                            <span className="textoSaberMas">Deseo saber más</span>
-                            <i class='bx bxl-whatsapp'></i>
-                            
+                        <div className="fotoWoman">
+                            <img className="womanServicios" src={womanServicios} alt="logo"/>
                         </div>
-                        
+                        <div className="cajaSaberMas">
+                            <span className="textoSaberMas">Deseo saber más</span>
+                        </div>
+                        <div className="whatsappWoman">
+                            <img className="whatsapp" src={whatsapp} alt="logo"/>
+                        </div>
                     </div>        
                 </div>
             </div>
