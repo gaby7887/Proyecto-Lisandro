@@ -36,7 +36,7 @@ const Inicio = () => {
                         deportista o uno que se destacara por su habilidad.   
                         </p>
                         <img className="vector" src={vector} alt="logo"/>
-                        <a className="numeroWhatsapp" href="/AcercaDeMi"><button className="leerMas">Leer más...</button></a>
+                        <a href="/AcercaDeMi"><button className="leerMas">Leer más...</button></a>
                         <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><button className="comienzaTuEntrenamiento"><span className="textoBoton">Comienza tu entrenamiento</span></button></a>
                     </div>
                 </div>
