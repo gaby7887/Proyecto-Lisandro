@@ -2,6 +2,7 @@
     display: flex;
     flex-direction:row;
     justify-content: space-around;
+    background: #FFFFFF;
 }
 
 .divFotoLisandro {
@@ -11,28 +12,24 @@
 .fotoLisandro {
     width: 577px;
     height: 640px;
-    /* left: 54px;
-    top: 186px; */
     border-radius: 40px;
-    background: url(../../../Imagenes/fotoLisandro.png);
 }
 
 .cajaTitleHome {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: flex-start;
+
     align-items: center;
-    padding: 20px;
-    gap: 10px;
+    /* padding: 20px; */
+    /* gap: 10px; */
 
     position: absolute;
     width: 420px;
     height: 214px;
     left: 565px;
-    top: 125px;
+    top: 145px;
     padding: 0;
-
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 99.99%, #E5E5E5 100%);
     border-radius: 20px;
 }
@@ -42,11 +39,12 @@
     height: 186px;
 
     font-family: 'Open Sans';
-    font-style: normal;
-    
+    /* font-style: normal; */
+    padding: 15px;
+
     font-weight: 700;
     font-size: 68px;
-    line-height: 82.6px;
+    line-height: 92.6px;
     text-indent: 4px;
 
     color: #1A1A25;
@@ -56,6 +54,35 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+.titleHome span{
+    font-size: 68px;
+    color: #436CFF;
+}
+
+.lineaHome {
+    width: 152px;
+    height: 0px;
+    margin-top: 200px;
+    margin-left: -305px;
+
+    background: #436CFF;    
+}
+
+.parrafoSobreMi {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #1A1A25; 
+}
+.parrafoSobreMi span{
+    color: #436CFF;
+    font-size: 20px;
+    margin-right: 2px;
 }
 
 .contenedorEscuelaDeFuerza {
@@ -73,8 +100,7 @@
 
     width: 300px;
     height: 88px;
-    /* left: 938px;
-    top: 360px; */
+   
     color: #1A1A25;
 }
 
@@ -86,30 +112,39 @@
 .textoPresentacion {
     width: 400px;
     height: 109px;
-    /* left: 938px;
-    top: 448px; */
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    margin-top: 0;
+    margin: 0;
 
     /* gris */
 
     color: rgba(26, 26, 37, 0.6);
 }
 
+.contenedorLeerMas{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.vector {
+    display: flex;
+    /* margin-bottom: -20px; */   
+}
+
 .leerMas {
     font-size: 16px;
     line-height: 22px;
     text-align: justify;
+    /* margin-left: 20px; */
 
     color: #436CFF;
+
     border: none;
     background: none;
-    font-size: 16px;
     font-weight: 700;
 
     /* Inside auto layout */
@@ -117,6 +152,8 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+
+    cursor: pointer;
 }
 
 .comienzaTuEntrenamiento {
@@ -125,17 +162,17 @@
     justify-content: center;
     align-items: center;
     padding: 14px 20px;
-    margin-top: 10px;
-
+    margin: 10px;
+    margin-left: 0;
+    
     width: 284px;
     height: 50px;
-    /* left: 938px;
-    top: 606px; */
-
+    
     background: #436CFF;
     box-shadow: 0px 4px 20px #436CFF;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 .textoBoton {
@@ -151,4 +188,126 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin: 0;
+}
+
+.numeroWhatsapp {
+    text-decoration: none;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and(max-width: 1400px){
+
+}
+
+@media only screen and(max-width: 1200px){
+
+}
+
+@media only screen and(max-width: 992px){
+    
+}
+
+@media only screen and(max-width: 768px){
+    .cajaTitleHome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .titleHome{
+        display: flex;
+        flex-direction: column;
+        width: 224px;
+        height: 88px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        text-indent: 4px;
+
+    }
+
+
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .divFotoLisandro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotoLisandro{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 294px; 
+        border-radius: 40px;    
+    }
+    
+
+.contenedorEscuelaDeFuerza{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media only screen and(max-width: 576px){
+    
+    .cajaTitleHome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .titleHome{
+        display: flex;
+        flex-direction: column;
+        width: 224px;
+        height: 88px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        text-indent: 4px;
+
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .divFotoLisandro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotoLisandro{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 294px; 
+        border-radius: 40px;    
+    }
+    
+
+.contenedorEscuelaDeFuerza{
+    display: flex;
+    flex-direction: column;
+}
 }

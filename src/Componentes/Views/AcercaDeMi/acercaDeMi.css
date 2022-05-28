@@ -17,9 +17,10 @@
 .flexInterno{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: space-between; */
     align-items: center;
-    gap: 60px;
+    gap: 190px;
+    /* margin-right: 30px; */
 }
 
 .textAcerca{
@@ -32,15 +33,20 @@
     font-weight: 800;
     font-size: 36px;
     padding-left: 60px;
-    margin: 0 auto 0 50px;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
-.parrafos{
+.parrafos {
+    width: 610px;
+    height: 627px;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 21.79px;
+    font-weight: 500;
+    line-height: 23.79px;
     padding-left: 60px;
     color: rgba(26, 26, 37, 0.6); 
+    /* margin-bottom: 10px; */
 }
 
 .textoBold{
@@ -51,12 +57,21 @@
 .img{
     width: 501px;
     height: 513px;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.contenedorSubtitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 0 0;
 }
 .subTitle{
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
     color: rgba(74, 74, 125, 1);
     line-height: 76.8px;
-    margin: 40px 0 100px 0;
+    /* margin: 40px 0 100px 0; */
 }

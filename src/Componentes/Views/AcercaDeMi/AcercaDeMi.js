@@ -1,6 +1,6 @@
 import React from "react";
 import './acercaDeMi.css'
-import imagen from '../../../Imagenes/fotoContacto1.png'
+import imagen from '../../../Imagenes/pesa.jpeg'
 
 const AcercaDeMi = () => {
     return (
@@ -26,11 +26,13 @@ const AcercaDeMi = () => {
                                 Durante ese recorrido, trabajamos codo a codo con Powerlifters, Levantadores Olímpicos, Luchadores de todo tipo e incontables deportistas de Futbol, Rugby, Hockey entre otros. Ahí encontré que ante las necesidades especificas de cada uno, todos los deportes comparten principios y reglas básicas que si las aplicas de la manera correcta, el avance es más veloz.
                                 Mi idea desde este espacio, es poder ayudarte a que el <span className="textoBold">recorrido que yo hice en 20 años, vos lo puedas hacer en 10</span>, para que tus alumnos, algún día, lo puedan hacer en 5.
                             </p>
-                            <p className="textoBold">
-                                Escuela de Fuerza no es solo un lugar de entrenamiento, es también un lugar de construcción de saber.
-                            </p>
-                            <p>¿Te gustaría ser parte?</p> 
-                            <p>¡Te espero!</p>
+                            <div>
+                                <p className="textoBold">
+                                    Escuela de Fuerza no es solo un lugar de entrenamiento, es también un lugar de construcción de saber.
+                                </p>
+                                <p>¿Te gustaría ser parte?</p> 
+                                <p>¡Te espero!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -44,7 +46,7 @@ const AcercaDeMi = () => {
 
             </div>
             
-            <div>
+            <div className="contenedorSubtitle">
                 <h3 className="subTitle">“Para tener éxito, en primer lugar debemos creer que podemos”</h3>
             </div>
         </div>

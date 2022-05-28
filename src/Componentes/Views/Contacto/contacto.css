@@ -1,10 +1,11 @@
 .contacto{
     width: 100%;
     grid-area: contacto;
-    height: 1011px;
+    height: 1311px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 130px;
 }
 .fotoContacto4{
     width: 100%;
@@ -16,6 +17,7 @@
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    margin-top: 270px;
 }
 .containerTexto{
     width: 552px;
@@ -62,7 +64,7 @@
     width: 335px;
     height: 291px;
     position: absolute;
-    top: 3305px;
+    top: 3735px;
     left: 815px;
     padding-top: 20px;
 }
@@ -70,13 +72,13 @@
     width: 335px;
     height: 311px;
     position: absolute;
-    top: 3473px;
+    top: 3913px;
     left: 1003px;
 }
 .imagenTres{
     width: 335px;
     height: 292px;
     position: absolute;
-    top: 3739px;
+    top: 4080px;
     left: 815px;
 }
