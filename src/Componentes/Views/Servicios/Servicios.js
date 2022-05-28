@@ -83,9 +83,9 @@ const Servicios = () => {
             </div>
 
             <div className="center margin-t">
-                <di>
+                <div>
                     <h2>Pueden encontrarme en:</h2>
-                </di>
+                </div>
                 <div className="contenedorIconos">
                     <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="instagram" src={instagram} alt="logo"/></a>
                     <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="gmail" src={gmail} alt="logo"/></a>

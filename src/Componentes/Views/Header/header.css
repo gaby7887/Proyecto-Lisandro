@@ -15,6 +15,7 @@
     border-radius: 40px;
 }
 
+
 .cajaTitleHome {
     display: flex;
     flex-direction: row;
@@ -170,6 +171,14 @@
     
     background: #436CFF;
     box-shadow: 0px 4px 20px #436CFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.comienzaTuEntrenamiento:hover{
+    background: #1a48f0;
+    transition: all ease 0.5s;
+    box-shadow: 0px 4px 20px #2554fc;
     border-radius: 10px;
     border: none;
     cursor: pointer;
