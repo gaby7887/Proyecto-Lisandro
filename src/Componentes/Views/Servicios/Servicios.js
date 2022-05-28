@@ -3,6 +3,7 @@ import './servicios.css'
 import manServicios from '../../../Imagenes/manServicios.png';
 import womanServicios from '../../../Imagenes/womanServicios.png';
 import whatsapp from '../../../Imagenes/whatsapp.png';
+import circulo from '../../../Imagenes/circulo.png';
 
 const Servicios = () => {
     
@@ -29,10 +30,11 @@ const Servicios = () => {
                             <img className="manServicios" src={manServicios} alt="logo"/>
                         </div>
                         <div className="cajaSaberMasMentorias">
-                            <span className="textoSaberMas">Deseo saber más</span>
+                            <img className="circulo" src={circulo} alt="logo"/>
+                            <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><span className="textoSaberMas">Deseo saber más</span></a>
                         </div>  
                         <div className="whatsappMan">
-                            <img className="whatsapp" src={whatsapp} alt="logo"/>
+                        <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
                         </div>          
                     </div>
                 </div>
@@ -50,11 +52,12 @@ const Servicios = () => {
                         <div className="fotoWoman">
                             <img className="womanServicios" src={womanServicios} alt="logo"/>
                         </div>
-                        <div className="cajaSaberMas">
-                            <span className="textoSaberMas">Deseo saber más</span>
+                        <div className="textoSaberMasWoman">
+                            <img className="circulo" src={circulo} alt="logo"/>
+                            <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><span className="textoSaberMas">Deseo saber más</span></a>
                         </div>
                         <div className="whatsappWoman">
-                            <img className="whatsapp" src={whatsapp} alt="logo"/>
+                        <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
                         </div>
                     </div>        
                 </div>

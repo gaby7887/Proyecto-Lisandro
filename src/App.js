@@ -4,7 +4,6 @@ import './styles/normalize.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //Views
-import Inicio from './Componentes/Views/Header/Header';
 import AcercaDeMi from "./Componentes/Views/AcercaDeMi/AcercaDeMi";
 import Servicios from "./Componentes/Views/Servicios/Servicios";
 import Contacto from "./Componentes/Views/Contacto/Contacto";
