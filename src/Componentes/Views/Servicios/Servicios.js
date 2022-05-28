@@ -2,11 +2,8 @@ import React from "react";
 import './servicios.css'
 import manServicios from '../../../Imagenes/manServicios.png';
 import womanServicios from '../../../Imagenes/womanServicios.png';
-import whatsapp from '../../../Imagenes/whassap.png';
-import instagram from '../../../Imagenes/instagram.png';
-import gmail from '../../../Imagenes/gmail.png';
+import whatsapp from '../../../Imagenes/whatsapp.png';
 import circulo from '../../../Imagenes/circulo.png';
-// import circulo from '../../../Imagenes/circulo.png';
 
 const Servicios = () => {
     
@@ -21,7 +18,6 @@ const Servicios = () => {
                     <div>
                         <h2 className='subtituloMentorias'>Mentorias</h2>
                     </div>  
-
                     <div className="parrafoMentorias">
                         <p className="primerParrafosMentorias"> 
                             Mientras nos tomamos unos mates o un café. Puede ser virtual o presencial.
@@ -31,22 +27,22 @@ const Servicios = () => {
                         <p className="segundoParrafosMentorias">
                             Podemos coordinar mentorías 1 a 1 o en grupos de hasta 5 participantes.
                             Usualmente lo que usamos para clubes o instituciones deportivas.
-                        </p>        
-                    </div>
-
-                    <div className="fotoMan" >
-                        <img src={manServicios} alt="logo"/>
-                    </div>
-
-                    <div className="contenedorWhassapMentorias">
+                        </p>
+                        <div className="fotoMan">
+                            <img className="manServicios" src={manServicios} alt="logo"/>
+                        </div>
                         <div className="cajaSaberMasMentorias">
                             <img className="circulo" src={circulo} alt="logo"/>
                             <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><span className="textoSaberMas">Deseo saber más</span></a>
                         </div>  
-
                         <div className="whatsappMan">
-                            <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
-                        </div> 
+                        <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
+                        </div>          
+                    </div>
+                </div>
+                <div className="contenedorCursos">
+                    <div className="contenedorSubtituloCursos">
+                        <h2 className='subtituloCursos'>Cursos</h2>
                     </div>
 
                 </div>
@@ -62,34 +58,17 @@ const Servicios = () => {
                             a lo más avanzado, para que puedas realizarlo a tu ritmo y puedas incorporar
                             tu propio SkillTree para que te especialices en lo que necesites.
                         </p>
-                    </div> 
-
-                    <div className="fotoWoman">
-                        <img className="manServicios" src={womanServicios} alt="logo"/>
-                    </div>
-
-                    <div className="contenedorWhassapCursos">
-                        <div className="cajaSaberMasMentorias">
+                        <div className="fotoWoman">
+                            <img className="womanServicios" src={womanServicios} alt="logo"/>
+                        </div>
+                        <div className="textoSaberMasWoman">
                             <img className="circulo" src={circulo} alt="logo"/>
                             <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><span className="textoSaberMas">Deseo saber más</span></a>
-                        </div>  
-
-                        <div className="whatsappMan">
-                            <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
-                        </div> 
-                    </div>
-
-                </div>
-            </div>
-
-            <div className="center margin-t">
-                <di>
-                    <h2>Pueden encontrarme en:</h2>
-                </di>
-                <div className="contenedorIconos">
-                    <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="instagram" src={instagram} alt="logo"/></a>
-                    <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="gmail" src={gmail} alt="logo"/></a>
-                    <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
+                        </div>
+                        <div className="whatsappWoman">
+                        <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
+                        </div>
+                    </div>        
                 </div>
             </div>
 
