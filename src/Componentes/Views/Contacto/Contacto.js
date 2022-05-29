@@ -7,7 +7,7 @@ import fotoContacto4 from '../../../Imagenes/fotoContacto4.jpg'
 
 const Contacto = () => {
     return (
-        <div className="contacto">
+        <div className="contacto" id="contacto" >
             <img 
                 className="fotoContacto4"
                 src={fotoContacto4}
@@ -18,7 +18,7 @@ const Contacto = () => {
                         <p className="textoContacto">"La clave para iniciar algo es dejar de hablar y ponerse a realizar"</p>
                     </div>
                     <div>
-                        <button className="buttonContacto">Contáctame</button>
+                        <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><button className="buttonContacto">Contáctame</button></a>
                     </div>
                 </div>
                 <div>

@@ -11,7 +11,7 @@ import circulo from '../../../Imagenes/circulo.png';
 const Servicios = () => {
     
     return (
-        <div className="servicios">
+        <div className="servicios" id="servicios">
             <div className="contenedorTitle">
                 <h1 className="tituloServicios">Servicios</h1>
                 <h5 className="subtituloH5">Acá encontraras nuestros servicios de mentorias y cursos</h5>
@@ -87,8 +87,8 @@ const Servicios = () => {
                     <h2>Pueden encontrarme en:</h2>
                 </div>
                 <div className="contenedorIconos">
-                    <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="instagram" src={instagram} alt="logo"/></a>
-                    <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="gmail" src={gmail} alt="logo"/></a>
+                    <a className="numeroWhatsapp" href="https://www.instagram.com/EscueladeFuerza@gmail.com"><img className="instagram" src={instagram} alt="logo"/></a>
+                    <a className="numeroWhatsapp" href="https://www.gmail.com/@EscueladeFuerza"><img className="gmail" src={gmail} alt="logo"/></a>
                     <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
                 </div>
             </div>

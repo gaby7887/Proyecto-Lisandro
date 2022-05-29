@@ -4,7 +4,7 @@ import imagen from '../../../Imagenes/pesa.jpeg'
 
 const AcercaDeMi = () => {
     return (
-        <div className="acercaDeMi">
+        <div className="acercaDeMi" id="acercaDeMi">
             <div className="flexInterno">
                 <div className="containerContenido">
                     <div className="containerTextAcerca">

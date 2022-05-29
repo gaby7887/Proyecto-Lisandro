@@ -3,14 +3,20 @@ import './header.css';
 import vector from '../../../Imagenes/Vector.png';
 import fotoLisandro from '../../../Imagenes/fotoLisandro.png';
 import rectangulo from '../../../Imagenes/rectangulo.png';
+import ellipse from '../../../Imagenes/ellipse.png'
 
 const Inicio = () => {
     return (
         <>
 
-        <div className="home">
+        <div className="home" id="inicio">
            <div className="divFotoLisandro">
-                <img className="fotoLisandro" src={fotoLisandro} alt="logo"/>
+               <div>
+                    <img className="ellipse" src={ellipse} alt="logo"/>
+               </div>
+               <div>
+                    <img className="fotoLisandro" src={fotoLisandro} alt="logo"/>
+               </div>
             </div>
       
             <div className="cajaTitleHome">
