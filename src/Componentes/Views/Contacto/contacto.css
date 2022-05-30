@@ -99,7 +99,7 @@
         width: auto;
         height: 111px;
         object-fit: cover;
-        margin-top: 700px;
+        margin-top: 900px;
         margin-bottom: 10px;
     }
     .containerImgTexto{
@@ -142,7 +142,7 @@
         height: 86px;
         position: absolute;
         padding-top: 20px;
-        top: 3690px;
+        top: 4030px;
         left: 255px;
     }
     
@@ -150,14 +150,14 @@
         width: 87px;
         height: 90px;
         position: absolute;
-        top: 3760px;
+        top: 4100px;
         left: 295px;
     }
     .imagenTres{
         width: 79px;
         height: 74px;
         position: absolute;
-        top: 3810px;
+        top: 4150px;
         left: 255px;
     }
     

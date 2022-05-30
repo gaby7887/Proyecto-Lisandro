@@ -75,3 +75,53 @@
     line-height: 76.8px;
     /* margin: 40px 0 100px 0; */
 }
+@media (max-width: 412px){
+    .acercaDeMi{
+        margin: 150px 0 0 0;
+    }
+    .flexInterno{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .containerTextAcerca{
+        width: 412px;
+        height: 817px;
+        padding: 0px;
+        /* margin: auto; */
+    }
+    .title{
+        font-size:18px;
+        margin-left: 35px;
+        padding: 0;
+    }
+    .parrafos{
+        width: 344px;
+        height: 817px;
+        font-size: 15px;
+        line-height: 23.79px;
+        margin: auto;
+        padding: 0px;
+    }
+    .img{
+        width: 122px;
+        height: 112px; 
+        top: 2110px;
+        left: 250px;   
+        position: absolute;
+    }
+    .contenedorSubtitle{
+        width: 177px;
+        height: 90px;
+        margin: 0;
+    }
+    .subTitle{
+        width: 177px;
+        height: 90px;
+        font-size: 15px;
+        line-height: 20.43px;
+        position: absolute;
+        left: 62px;
+        top: 2130px;
+    }
+}
