@@ -291,6 +291,9 @@ color: rgba(26, 26, 37, 0.6);
 }
 
 @media (max-width: 412px){
+    /* .servicios{
+        height: 200px;
+    } */
     .cajaContenedora {
         display: flex;
         flex-direction: column;
@@ -322,6 +325,7 @@ color: rgba(26, 26, 37, 0.6);
     }
     .tituloServicios{
         font-size: 22px;
+        margin-top: 180px;
     }
     .subtituloH5{
         width: 100%;

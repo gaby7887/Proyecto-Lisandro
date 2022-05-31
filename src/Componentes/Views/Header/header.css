@@ -8,7 +8,7 @@
 
 .divFotoLisandro {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .fotoLisandro {
@@ -221,8 +221,102 @@
 
 
 /* MEDIA QUERIES */
-
 @media (max-width: 412px){
+    .home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cajaTitleHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 100px 0;
+
+        position: initial;
+        width: 224px;
+        height: 88px;
+        padding: 0;
+        background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 99.99%, #E5E5E5 100%);
+        border-radius: 20px;
+    }
+    .titleHome{
+        width: 224px;
+        height: 88px;
+        font-size: 42px;
+        line-height: 43.58px;
+        margin: 0;
+    }
+    .lineaHome {
+        width: 21px;
+        height: 0px;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+    .rectangulo{
+        width: 121px;
+        height: 5px;
+    }
+    .contenedorLeerMas{
+        justify-content: center;
+        margin: 20px;
+    }
+    .contenedorEscuelaDeFuerza{
+        align-items: center;
+        text-align: center;
+    }
+    .textoPresentacion{
+        width: 217px;
+        height: 205px;
+        font-size: 15px;
+        margin: auto;
+    }
+    .divFotoLisandro{
+        flex-direction: column-reverse;
+    }
+    .fotoLisandro{
+        width: 303px;
+        height: 294px;
+        margin: 0 0 20px 0;
+    }
+    .subTituloHome{
+        width: 355px;
+        height: 77px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    .parrafoSobreMi{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .comienzaTuEntrenamiento{
+        width: 238px;
+        height: 36px;
+        margin: auto;
+    }
+    .textoBoton{
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* @media only screen and(max-width: 1400px){
+
+}
+
+@media only screen and(max-width: 1200px){
+
+}
+
+@media only screen and(max-width: 992px){
     
     .home{
         flex-direction: column;

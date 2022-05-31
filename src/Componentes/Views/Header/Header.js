@@ -10,21 +10,23 @@ const Inicio = () => {
         <>
 
         <div className="home" id="inicio">
-           <div className="divFotoLisandro">
-               <div>
-                    <img className="ellipse" src={ellipse} alt="logo"/>
-               </div>
-               <div>
-                    <img className="fotoLisandro" src={fotoLisandro} alt="logo"/>
-               </div>
-            </div>
-      
-            <div className="cajaTitleHome">
-                <h1 className="titleHome">Lisandro Cacciatore<span className="punto">.</span></h1>
-                <div className="lineaHome">
-                    <img className="rectangulo" src={rectangulo} alt="logo"/>
+            <div className="divFotoLisandro">
+                <div>
+                    <div>
+                        <img className="ellipse" src={ellipse} alt="logo"/>
+                    </div>
+                    <div>
+                        <img className="fotoLisandro" src={fotoLisandro} alt="logo"/>
+                    </div>
                 </div>
-            </div>  
+        
+                <div className="cajaTitleHome">
+                    <h1 className="titleHome">Lisandro Cacciatore<span className="punto">.</span></h1>
+                    <div className="lineaHome">
+                        <img className="rectangulo" src={rectangulo} alt="logo"/>
+                    </div>
+                </div>  
+            </div>
 
             <div className="contenedorEscuelaDeFuerza">
                 <div className="cajaSubtituloHome">
