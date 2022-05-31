@@ -14,7 +14,7 @@ const Inicio = () => {
                 <div>
                     <div>
                         <img className="ellipse" src={ellipse} alt="logo"/>
-                    </div>
+                    </div>  
                     <div>
                         <img className="fotoLisandro" src={fotoLisandro} alt="logo"/>
                     </div>
@@ -45,7 +45,7 @@ const Inicio = () => {
                         </p>
                         <div className="contenedorLeerMas">
                             <img className="vector" src={vector} alt="logo"/>
-                            <a href="/AcercaDeMi"><button className="leerMas">Leer más...</button></a>
+                            <a href="#acercaDeMi"><button className="leerMas">Leer más...</button></a>
                         </div>
                         <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><button className="comienzaTuEntrenamiento"><span className="textoBoton">Comienza tu entrenamiento</span></button></a>
                     </div>
