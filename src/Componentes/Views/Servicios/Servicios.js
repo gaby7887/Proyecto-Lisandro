@@ -87,8 +87,8 @@ const Servicios = () => {
                     <h2>Pueden encontrarme en:</h2>
                 </div>
                 <div className="contenedorIconos">
-                    <a className="numeroWhatsapp" href="https://www.instagram.com/EscueladeFuerza@gmail.com"><img className="instagram" src={instagram} alt="logo"/></a>
-                    <a className="numeroWhatsapp" href="https://www.gmail.com/@EscueladeFuerza"><img className="gmail" src={gmail} alt="logo"/></a>
+                    <a className="numeroWhatsapp" href="https://instagram.com/escueladefuerza" target="_blank" rel="noopener noreferrer"><img className="instagram" src={instagram} alt="logo"/></a>
+                    <a className="numeroWhatsapp" href="https://Escueladefuerza@gmail.com" target="_blank" rel="noopener noreferrer"><img className="gmail" src={gmail} alt="logo"/></a>
                     <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
                 </div>
             </div>
