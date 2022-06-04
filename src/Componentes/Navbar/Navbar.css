@@ -24,6 +24,10 @@
     background: white;
 }
 
+.contenedorIconos {
+    display: none  !important; 
+}
+
 .navList {
     list-style: none;
 }

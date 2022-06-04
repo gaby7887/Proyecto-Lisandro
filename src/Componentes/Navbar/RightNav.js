@@ -41,12 +41,14 @@ display: flex;
         justify-content: center;
         align-items: center;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+        img: none;
        
 @media (max-width: 412px) {
     
     .contenedorIconos img {
         width: 50%;
-        height: 50%;   
+        height: 50%;
+          
     }
 }    
 `;
