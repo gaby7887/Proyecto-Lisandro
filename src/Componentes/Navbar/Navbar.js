@@ -1,22 +1,34 @@
 import React from "react";
 import './Navbar.css';
 import { Link } from "react-router-dom";
+import Burger from './Burguer';
+import styled from 'styled-components';
+import logo from '../../Imagenes/logo.png';
 
-import logo from '../../Imagenes/logo.png'
+
+const Nav = styled.nav`
+    width: 100%;
+    height: 55px
+    border-bottom: 2px solid #f1f1f1;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+    padding: 15px 0;
+    z-index: 25,
+
+    }
+`
+
 
 const Navbar = () => {
     return(
-        <div className="navbar">
-            <Link to="/"><img className='logoLisandro' src={logo} alt='logo' /></Link>
-            <div className="link">
-                <ul className="listadoNavbar">
-                    <a href='#inicio' className="inicioNavbar">Inicio</a>
-                    <a href="#acercaDeMi"className="acercaDeMiNavbar">Acerca de mi</a>
-                    <a href="#servicios" className="serviciosNavbar">Servicios</a>
-                    <a href="#contacto" className="contactoNavbar">Contacto</a>
-                </ul>
+        <Nav>
+            <div className="logo">
+                <Link to="/"><img className='logoLisandro' src={logo} alt='logo' /></Link>
             </div>
-        </div>
+            <Burger />
+        </Nav>    
     )
 }
 

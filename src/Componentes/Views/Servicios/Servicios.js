@@ -41,11 +41,11 @@ const Servicios = () => {
                     <div className="contenedorWhassapMentorias">
                         <div className="cajaSaberMasMentorias">
                             <img className="circulo" src={circulo} alt="logo"/>
-                            <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><span className="textoSaberMas">Deseo saber más</span></a>
+                            <a className="numeroWhatsapp" href="https://wa.me/5493415040228"><span className="textoSaberMas">Deseo saber más</span></a>
                         </div>  
 
                         <div className="whatsappMan">
-                            <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
+                            <a className="numeroWhatsapp" href="https://wa.me/5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
                         </div> 
                     </div>
 
@@ -71,11 +71,11 @@ const Servicios = () => {
                     <div className="contenedorWhassapCursos">
                         <div className="cajaSaberMasMentorias">
                             <img className="circulo" src={circulo} alt="logo"/>
-                            <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><span className="textoSaberMas">Deseo saber más</span></a>
+                            <a className="numeroWhatsapp" href="https://wa.me/5493415040228"><span className="textoSaberMas">Deseo saber más</span></a>
                         </div>  
 
                         <div className="whatsappMan">
-                            <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
+                            <a className="numeroWhatsapp" href="https://wa.me/5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
                         </div> 
                     </div>
 
@@ -88,8 +88,8 @@ const Servicios = () => {
                 </div>
                 <div className="contenedorIconos">
                     <a className="numeroWhatsapp" href="https://instagram.com/escueladefuerza" target="_blank" rel="noopener noreferrer"><img className="instagram" src={instagram} alt="logo"/></a>
-                    <a className="numeroWhatsapp" href="https://Escueladefuerza@gmail.com" target="_blank" rel="noopener noreferrer"><img className="gmail" src={gmail} alt="logo"/></a>
-                    <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
+                    <a className="numeroWhatsapp" href="mailto:escueladefuerza@gmail.com" target="_blank" rel="noopener noreferrer"><img className="gmail" src={gmail} alt="logo"/></a>
+                    <a className="numeroWhatsapp" href="https://wa.me/5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
                 </div>
             </div>
 

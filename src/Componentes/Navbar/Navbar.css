@@ -1,4 +1,4 @@
-.navbar {
+/*.navbar {
     display: flex;
     flex-direction:row;
     justify-content:space-around;
@@ -7,6 +7,7 @@
     margin-top: 0px;
     position: fixed;
     z-index: 1;
+    
 }
 
 .link {
@@ -15,13 +16,22 @@
     line-height: 30px;
     color: #1A1A25;
     list-style-type: none;
-    }
+    } */
+
+.ULlist {
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.navList {
+    list-style: none;
+}
 
 .logoLisandro {
     width: 186px;
     height: 85px;
 }
-
 
 
 .listadoNavbar {
@@ -35,12 +45,25 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 26,63px;
-    padding-left: 738px;
+    /*padding-left: 738px; */
     top: 48px;
     width: 78px;
     height: 25px;
     text-decoration: none;
     color: #1A1A25 
+}
+
+.kgBKsi{
+    right: 60px !important;
+}
+.cLsCLe{
+    right: 60px !important;
+}
+.hyqPQT{
+    padding: 0px !important;
+}
+.gIxFBY{
+    z-index: 3;
 }
 
 .acercaDeMiNavbar {
@@ -78,3 +101,4 @@
     text-decoration: none;
     color: #1A1A25
 }
+
