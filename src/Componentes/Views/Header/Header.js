@@ -3,7 +3,7 @@ import './header.css';
 import vector from '../../../Imagenes/Vector.png';
 import fotoLisandro from '../../../Imagenes/fotoLisandro.png';
 import rectangulo from '../../../Imagenes/rectangulo.png';
-import ellipse from '../../../Imagenes/ellipse.png'
+import ellipse from '../../../Imagenes/ellipse.png';
 
 const Inicio = () => {
     return (
@@ -50,7 +50,7 @@ const Inicio = () => {
                         <a className="numeroWhatsapp" href="https://wa.me/+5493415040228"><button className="comienzaTuEntrenamiento"><span className="textoBoton">Comienza tu entrenamiento</span></button></a>
                     </div>
                 </div>
-            </div>
+            </div>  
         </div>
 
         </>

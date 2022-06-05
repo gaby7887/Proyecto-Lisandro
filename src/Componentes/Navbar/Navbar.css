@@ -24,8 +24,8 @@
     background: white;
 }
 
-.contenedorIconos {
-    display: none  !important; 
+#iconosNav {
+   display: none; 
 }
 
 .navList {

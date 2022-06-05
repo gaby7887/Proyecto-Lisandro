@@ -10,7 +10,9 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   li {
-    padding: 18px 50px;
+    padding: 21px 50px;
+    
+
   }
 
 
@@ -32,26 +34,14 @@ const Ul = styled.ul`
       display: flex;
       flex-direction:column
   }
+  #iconosNav{
+    display: inline;
+    text-align: center;
+      
+}
   }
 `;
 
-const Img = styled.img`
-display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-        img: none;
-       
-@media (max-width: 412px) {
-    
-    .contenedorIconos img {
-        width: 50%;
-        height: 50%;
-          
-    }
-}    
-`;
 
 const RightNav = ({ open }) => {
   return (
@@ -70,7 +60,7 @@ const RightNav = ({ open }) => {
           <a href="#contacto" className="contactoNavbar">Contacto</a>
         </li>
       </ul>
-      <div className="contenedorIconos">
+      <div className="contenedorIconos" id="iconosNav">
             <a className="numeroWhatsapp" href="https://instagram.com/escueladefuerza" target="_blank" rel="noopener noreferrer"><img className="instagram" src={instagram} alt="logo"/></a>
             <a className="numeroWhatsapp" href="mailto:escueladefuerza@gmail.com" target="_blank" rel="noopener noreferrer"><img className="gmail" src={gmail} alt="logo"/></a>
             <a className="numeroWhatsapp" href="https://wa.me/5493415040228"><img className="whatsapp" src={whatsapp} alt="logo"/></a>
