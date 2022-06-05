@@ -11,6 +11,11 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   margin-right: 20px;
 
+  .ULlist{
+    margin-right: 70px;
+    gap: 50px;
+  }
+
   @media (max-width: 412px) {
     flex-flow: column nowrap;
     margin-right: 0;
@@ -33,7 +38,8 @@ const Ul = styled.ul`
       flex-flow: column nowrap;
       border-radius: 20px;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-      gap: 20px;
+      gap: 0px;
+      margin-right: 0;
     }
     li{
       margin: 10px 0;
