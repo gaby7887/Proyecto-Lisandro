@@ -6,11 +6,11 @@ import ellipse4 from '../../../Imagenes/Ellipse 4.png'
 
 const AcercaDeMi = () => {
     return (
-        <div className="acercaDeMi" id="acercaDeMi">
+        <div className="acercaDeMi" >
             <div className="flexInterno">
                 <div className="containerContenido">
                     <div className="containerTextAcerca">
-                        <h4 className="title">Acerca de Mi</h4>
+                        <h4 id="acercaDeMi" className="title">Acerca de Mi</h4>
                         <div className="parrafos">
                             <p>
                                 Hola, mi nombre Lisandro Cacciatore. Soy Licenciado en Educación Física y un apasionado por  el estudio del entrenamiento.
