@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.cf17c7ab.css",
+    "main.js": "/my-app/static/js/main.4775cf6b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fotoContacto4.jpg": "/my-app/static/media/fotoContacto4.b5d4e724578c67e46aa2.jpg",
+    "static/media/fotoContacto3.png": "/my-app/static/media/fotoContacto3.2fa7de04cbb0f9757eb9.png",
+    "static/media/fotoLisandro.png": "/my-app/static/media/fotoLisandro.51fd4666485610b91ed1.png",
+    "static/media/pesa.jpeg": "/my-app/static/media/pesa.08ef6d77f515d20a9a67.jpeg",
+    "static/media/fotoContacto1.png": "/my-app/static/media/fotoContacto1.e80a18958554a2faf441.png",
+    "static/media/fotoContacto2.png": "/my-app/static/media/fotoContacto2.7b6c6188b0249ecb1acf.png",
+    "static/media/logo.png": "/my-app/static/media/logo.74789e980b17eb786854.png",
+    "static/media/womanServicios.png": "/my-app/static/media/womanServicios.83bb4e2cef7db534fc16.png",
+    "static/media/manServicios.png": "/my-app/static/media/manServicios.08b53345fd829488bb05.png",
+    "index.html": "/my-app/index.html",
+    "main.cf17c7ab.css.map": "/my-app/static/css/main.cf17c7ab.css.map",
+    "main.4775cf6b.js.map": "/my-app/static/js/main.4775cf6b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf17c7ab.css",
+    "static/js/main.4775cf6b.js"
+  ]
+}
