@@ -84,6 +84,23 @@
     left: 815px;
 }
 
+.ellipse3 {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 431px;
+    right: 0;
+    top: 3850px; 
+}
+.ellipse5 {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 431px;
+    left: 0;
+    top: 3850px; 
+}
+
 @media (max-width: 412px){
 
     .contacto{
@@ -142,7 +159,7 @@
         height: 86px;
         position: absolute;
         padding-top: 20px;
-        top: 4030px;
+        top: 4110px;
         left: 255px;
     }
     
@@ -150,15 +167,31 @@
         width: 87px;
         height: 90px;
         position: absolute;
-        top: 4100px;
+        top: 4180px;
         left: 295px;
     }
     .imagenTres{
         width: 79px;
         height: 74px;
         position: absolute;
-        top: 4150px;
+        top: 4230px;
         left: 255px;
+    }
+    .ellipse3 {
+        position: absolute;
+        z-index: 1;
+        width: 80px;
+        height: 231px;
+        right: 0;
+        top: 4150px; 
+    }
+    .ellipse5 {
+        position: absolute;
+        z-index: 1;
+        width: 80px;
+        height: 231px;
+        left: 0;
+        top: 4150px; 
     }
     
 }

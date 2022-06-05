@@ -1,6 +1,8 @@
 import React from "react";
 import './acercaDeMi.css'
 import imagen from '../../../Imagenes/pesa.jpeg'
+import ellipse2 from '../../../Imagenes/Ellipse 1.png'
+import ellipse4 from '../../../Imagenes/Ellipse 4.png'
 
 const AcercaDeMi = () => {
     return (
@@ -49,6 +51,12 @@ const AcercaDeMi = () => {
             <div className="contenedorSubtitle">
                 <h3 className="subTitle">“Para tener éxito, en primer lugar debemos creer que podemos”</h3>
             </div>
+            <div >
+                <img className="ellipse2" src={ellipse2} alt="logo"/>
+            </div> 
+            <div >
+                <img className="ellipse4" src={ellipse4} alt="logo"/>
+            </div> 
         </div>
     )
 }

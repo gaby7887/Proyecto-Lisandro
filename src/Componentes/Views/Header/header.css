@@ -14,9 +14,7 @@
 .fotoLisandro {
     width: 577px;
     height: 640px;
-    border-radius: 40px;
-    margin-top: 70px;
-    
+    border-radius: 40px;    
 }
 
 .ellipse {
@@ -26,7 +24,14 @@
     height: 419px;
     left: -147px;
     top: -117px;
-    
+}
+.ellipse1 {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 431px;
+    right: 0;
+    top: 400px; 
 }
 
 .cajaTitleHome {
@@ -229,7 +234,6 @@
         
     }
 
-
     .cajaTitleHome {
         display: flex;
         flex-direction: column;
@@ -246,16 +250,16 @@
     }
     .titleHome{
         width: 224px;
-        height: 88px;
-        font-size: 42px;
-        line-height: 43.58px;
-        margin: 0;
+        height: 40px;
+        font-size: 34px;
+        line-height: 34.58px;
+        font-weight: 700;
     }
     .lineaHome {
         width: 21px;
         height: 0px;
         margin-top: 0px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
     .rectangulo{
         width: 121px;
@@ -268,6 +272,7 @@
     .contenedorEscuelaDeFuerza{
         align-items: center;
         text-align: center;
+        margin-bottom: 80px;
     }
     .textoPresentacion{
         width: 217px;
@@ -276,12 +281,13 @@
         margin: auto;
     }
     .divFotoLisandro{
+        height: 475px;
         flex-direction: column-reverse;
     }
     .fotoLisandro{
         width: 303px;
         height: 294px;
-        margin: 0 0 20px 0;
+
     }
     .subTituloHome{
         width: 355px;
@@ -305,6 +311,15 @@
     }
     .textoBoton{
         font-size: 14px;
+    }
+    .ellipse1 {
+        position: absolute;
+        z-index: 1;
+        width: 100px;
+        height: 231px;
+        right: 0;
+        top: 650px; 
+        margin-right: 2px;
     }
 }
 

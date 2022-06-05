@@ -6,7 +6,7 @@ const StyledBurger = styled.div`
     width: 2rem;
     height: 2rem;
     position: fixed;
-    top: 15px;
+    top: 25px;
     right: 20px;
     z-index: 20;
     display: none;
@@ -15,6 +15,7 @@ const StyledBurger = styled.div`
         justify-content: space-around;
         flex-flow: column nowrap;
     }
+
     div {
         width: 2rem;
         height: 0.25rem;
@@ -42,12 +43,12 @@ const Burger = () => {
 
     return(
         <>
-        <StyledBurger open={open} onClick={() => setOpen(!open)}>
-            <div />
-            <div />
-            <div />
-        </StyledBurger>
-        <RightNav open={open}/>
+            <StyledBurger open={open} onClick={() => setOpen(!open)}>
+                <div />
+                <div />
+                <div />
+            </StyledBurger>
+            <RightNav open={open}/>
         </>
     )
 }

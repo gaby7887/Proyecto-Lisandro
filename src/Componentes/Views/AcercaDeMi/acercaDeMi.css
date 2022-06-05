@@ -75,6 +75,23 @@
     line-height: 76.8px;
     /* margin: 40px 0 100px 0; */
 }
+.ellipse2 {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 431px;
+    right: 0;
+    top: 1550px; 
+}
+.ellipse4 {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 431px;
+    left: 0;
+    top: 1550px; 
+}
+
 @media (max-width: 412px){
     .acercaDeMi{
         margin: 150px 0 0 0;
@@ -123,5 +140,17 @@
         position: absolute;
         left: 62px;
         top: 2130px;
+    }
+    .ellipse2 {
+        position: absolute;
+        z-index: 1;
+        width: 90px;
+        height: 231px;
+        right: 0;
+        top: 2190px; 
+        margin-right: 1px;
+    }
+    .ellipse4 {
+        display: none;
     }
 }

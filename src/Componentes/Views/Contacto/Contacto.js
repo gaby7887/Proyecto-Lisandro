@@ -4,6 +4,9 @@ import fotoContacto1 from '../../../Imagenes/fotoContacto1.png'
 import fotoContacto2 from '../../../Imagenes/fotoContacto2.png'
 import fotoContacto3 from '../../../Imagenes/fotoContacto3.png'
 import fotoContacto4 from '../../../Imagenes/fotoContacto4.jpg'
+import ellipse3 from '../../../Imagenes/Ellipse 1.png'
+import ellipse4 from '../../../Imagenes/Ellipse 4.png'
+
 
 const Contacto = () => {
     return (
@@ -40,6 +43,12 @@ const Contacto = () => {
                     />
                 </div>
             </div>
+            <div >
+                <img className="ellipse3" src={ellipse3} alt="logo"/>
+            </div> 
+            <div >
+                <img className="ellipse5" src={ellipse4} alt="logo"/>
+            </div> 
         </div>
     )
 }

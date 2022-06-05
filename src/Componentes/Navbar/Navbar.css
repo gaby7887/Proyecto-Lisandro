@@ -21,6 +21,7 @@
 .ULlist {
     display: flex;
     align-items: center;
+    gap: 20px;
     background: white;
 }
 
@@ -55,19 +56,6 @@
     height: 25px;
     text-decoration: none;
     color: #1A1A25 
-}
-
-.kgBKsi{
-    right: 60px !important;
-}
-.cLsCLe{
-    right: 60px !important;
-}
-.hyqPQT{
-    padding: 0px !important;
-}
-.gIxFBY{
-    z-index: 3;
 }
 
 .acercaDeMiNavbar {
@@ -106,3 +94,72 @@
     color: #1A1A25
 }
 
+.kgBKsi{
+    right: 60px !important;
+}
+.cLsCLe{
+    right: 60px !important;
+}
+.hyqPQT{
+    padding: 0px !important;
+}
+.gIxFBY{
+    z-index: 3;
+}
+
+@media (max-width: 412px){
+    .logoLisandro {
+        width: 140px;
+        height: 70px;
+    }
+    .inicioNavbar{
+        width: 78px;
+        height: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+    .acercaDeMiNavbar{
+        width: 78px;
+        height: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        padding: 0;
+    }
+    .serviciosNavbar{
+        width: 78px;
+        height: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+    .contactoNavbar{
+        width: 78px;
+        height: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+    .inicioNavbar span{
+        color: #436CFF;
+        font-size: 20px;
+        margin-right: 2px;
+    }
+    .acercaDeMiNavbar span{
+        color: #436CFF;
+        font-size: 20px;
+        margin-right: 2px;
+        padding: 0;
+    }
+    .serviciosNavbar span{
+        color: #436CFF;
+        font-size: 20px;
+        margin-right: 2px;
+    }
+    .contactoNavbar span{
+        color: #436CFF;
+        font-size: 20px;
+        margin-right: 2px;
+    }
+}

@@ -8,15 +8,13 @@ import logo from '../../Imagenes/logo.png';
 
 const Nav = styled.nav`
     width: 100%;
-    height: 55px
-    border-bottom: 2px solid #f1f1f1;
-    padding: 0 20px;
+    height: 95px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     .logo {
-    padding: 15px 0;
-    z-index: 25,
-
+        /* padding: 15px 0; */
+        z-index: 25;
     }
 `
 
