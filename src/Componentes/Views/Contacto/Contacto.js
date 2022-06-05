@@ -10,7 +10,7 @@ import ellipse4 from '../../../Imagenes/Ellipse 4.png'
 
 const Contacto = () => {
     return (
-        <div className="contacto" id="contacto" >
+        <div className="contacto">
             <img 
                 className="fotoContacto4"
                 src={fotoContacto4}

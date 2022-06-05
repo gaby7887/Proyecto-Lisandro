@@ -102,10 +102,10 @@
         gap: 0;
     }
     .containerTextAcerca{
-        width: 412px;
+        width: 100%;
         height: 817px;
         padding: 0px;
-        /* margin: auto; */
+        margin: 0px;
     }
     .title{
         font-size:18px;
@@ -146,11 +146,39 @@
         z-index: 1;
         width: 90px;
         height: 231px;
-        right: 0;
+        right: 0px;
         top: 2190px; 
-        margin-right: 1px;
+        margin-right: 0px;
     }
     .ellipse4 {
         display: none;
+    }
+
+    @media (max-width: 360px){
+        .title{
+            font-size:18px;
+            margin-left: 55px;
+            padding: 0;
+        }
+        .parrafos{
+            width: 330px;
+            height: 817px;
+            font-size: 15px;
+            line-height: 23.79px;
+            margin: auto;
+            padding: 0px;
+        }
+        .ellipse2 {
+            position: absolute;
+            z-index: 1;
+            width: 90px;
+            height: 231px;
+            right: -28px;
+            top: 2190px; 
+            margin-right: 0px;
+        }
+        .ellipse4 {
+            display: none;
+        }
     }
 }

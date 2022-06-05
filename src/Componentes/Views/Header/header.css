@@ -321,6 +321,18 @@
         top: 650px; 
         margin-right: 2px;
     }
+
+    @media (max-width: 360px){
+
+        .ellipse1 {
+            position: absolute;
+            z-index: 1;
+            width: 100px;
+            height: 230px;
+            right: -30px;
+            top: 650px; 
+        }
+    }
 }
 
 

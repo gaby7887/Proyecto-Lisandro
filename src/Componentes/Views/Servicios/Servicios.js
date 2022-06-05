@@ -11,9 +11,9 @@ import circulo from '../../../Imagenes/circulo.png';
 const Servicios = () => {
     
     return (
-        <div className="servicios" id="servicios">
+        <div className="servicios" >
             <div className="contenedorTitle">
-                <h1 className="tituloServicios">Servicios</h1>
+                <h1 id="servicios" className="tituloServicios">Servicios</h1>
                 <h5 className="subtituloH5">Acá encontraras nuestros servicios de mentorias y cursos</h5>
             </div>
             <div className="cajaContenedora">
@@ -84,7 +84,7 @@ const Servicios = () => {
 
             <div className="center margin-t">
                 <div>
-                    <h2>Pueden encontrarme en:</h2>
+                    <h2 id="contacto">Pueden encontrarme en:</h2>
                 </div>
                 <div className="contenedorIconos">
                     <a className="numeroWhatsapp" href="https://instagram.com/escueladefuerza" target="_blank" rel="noopener noreferrer"><img className="instagram" src={instagram} alt="logo"/></a>

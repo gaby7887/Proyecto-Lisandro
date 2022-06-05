@@ -288,7 +288,7 @@ color: rgba(26, 26, 37, 0.6);
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        gap: 40px;
+        gap: 80px;
     }
     .contenedorMentorias {
         display: flex;
@@ -377,4 +377,19 @@ color: rgba(26, 26, 37, 0.6);
         height: 50px;
     }
     
+    @media (max-width: 360px){
+        .tituloServicios{
+            margin: 130px 0px 0px 0px;
+        }
+        .contenedorMentorias {
+            display: flex;
+            flex-direction: column;
+            text-align: center !important;
+            justify-content: space-around;
+            margin-left: 30px;
+            width: 317px;
+            height: 545px;
+        
+        }
+    }
 }
