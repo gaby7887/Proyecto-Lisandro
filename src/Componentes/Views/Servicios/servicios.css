@@ -334,7 +334,9 @@ color: rgba(26, 26, 37, 0.6);
     .fotoMan img{
         width: 187px;
         height: 163px;
+        margin-top: -55px;
     }
+
     .subtituloCursos{
         width: 172px;
         height: 46px;
